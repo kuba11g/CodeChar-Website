@@ -1,0 +1,40 @@
+<body class="body">
+  <video id="videoBG" disablePictureInPicture autoplay muted loop>
+    <source [src]="backgroundVid" type="video/mp4">
+  </video>
+
+  <div class="container box-container">
+    <div class="forms">
+      <div class="form-content box-container">
+        <div class="login-form">
+          <div class="title header">Send Mail</div>
+          <form action="https://formsubmit.co/CodeChar.web.app@gmail.com" method="POST">
+            <input type="hidden" name="_template" value="table">
+            <input type="hidden" name="_subject" value="New mail from user on site">
+            <input type="hidden" name="_next" value="https://CodeChar-website.web.app/">
+            <div class="input-boxes">
+              <div class="input-box">
+                <i class="fas fa-envelope"></i>
+                <input class="put-in-box" type="text" name="name" placeholder="Full Name" required>
+              </div>
+              <div class="input-box">
+                <i class="fas fa-envelope"></i>
+                <input class="put-in-box" type="email" name="email" placeholder="Email Address" required>
+              </div>
+              <i class="fas fa-lock"></i>
+              <textarea placeholder="Your Message" class="message-mail put-in-box" name="message"
+                placeholder="Your Message" required></textarea>
+              <div class="button input-box">
+                <input type="submit" value="Send it!">
+              </div>
+              <p style="color: var(--text-color); padding: 15px 0; margin-bottom: -20px;" align="center">
+                &copy; 2022 Copyright: <a routerLink="/email"
+                  style="color: var(--text-color); text-decoration: none;">Created By: CodeChar</a>
+              </p>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>

@@ -1,0 +1,40 @@
+{
+  "hosting": {
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      },
+      {
+        "source": "/download",
+        "destination": "/index.html"
+      },
+      {
+        "source": "/email",
+        "destination": "/index.html"
+      },
+      {
+        "source": "/about-me",
+        "destination": "/index.html"
+      },
+      {
+        "source": "/instagrambotz",
+        "destination": "/index.html"
+      },
+      {
+        "source": "/spottybotty",
+        "destination": "/index.html"
+      },
+      {
+        "source": "/messbot",
+        "destination": "/index.html"
+      }
+    ],
+    "public": "dist/code-char-website",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}

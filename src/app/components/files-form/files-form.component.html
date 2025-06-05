@@ -1,0 +1,92 @@
+<body class="body">
+  <h1 class="header">Apps</h1>
+  <hr>
+  
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-10 col-sm-6 col-md-4 col-lg-4 col-xl-4">
+        <article>
+          <img [src]="instagramBotzLogo" alt="Logo">
+          <div class="text">
+            <h3 class="header">InstagramBotz</h3>
+            <p class="header">App that makes your life better.</p>
+            <a routerLink="/instagrambotz">
+              <button class="button">Info</button>
+            </a>
+            <a href="https://github.com/CodeChar/InstagramBotz/releases">
+              <button class="button">Download</button>
+            </a>
+          </div>
+        </article>
+      </div>
+      <div class="col-xs-10 col-sm-6 col-md-4 col-lg-4 col-xl-4">
+        <article>
+          <img [src]="spottyBottyLogo" alt="Logo">
+          <div class="text">
+            <h3 class="header">SpottyBotty</h3>
+            <p class="header">App that improves your life.</p>
+            <a routerLink="/spottybotty">
+              <button class="button">Info</button>
+            </a>
+            <a href="https://github.com/CodeChar/SpottyBotty/releases">
+              <button class="button">Download</button>
+            </a>
+          </div>
+        </article>
+      </div>
+      <div class="col-xs-10 col-sm-6 col-md-4 col-lg-4 col-xl-4">
+        <article>
+          <img [src]="messBotLogo" alt="Logo">
+          <div class="text">
+            <h3 class="header">MessBot</h3>
+            <p class="header">Be in touch with your contacts.</p>
+            <a routerLink="/messbot">
+              <button class="button">Info</button>
+            </a>
+            <a href="https://github.com/CodeChar/MessBot/releases">
+              <button class="button">Download</button>
+            </a>
+          </div>
+        </article>
+      </div>
+      <!--<div class="col-xs-10 col-sm-6 col-md-4 col-lg-4 col-xl-4">
+        <article>
+          <img [src]="autoClassJoinerLogo" alt="Logo">
+          <div class="text">
+            <h3 class="header">AutoClassJoiner</h3>
+            <p class="header">Helpfull school app.</p>
+            <a routerLink="/autoclassjoiner">
+              <button class="button">Info</button>
+            </a>
+            <a href="https://github.com/CodeChar/AutoClassJoiner/releases">
+              <button class="button">Download</button>
+            </a>
+          </div>
+        </article>
+      </div>-->
+    </div>
+  </div>
+
+  <footer>
+    <div class="container" style="padding: 50px 0; font-size: 22px;" align="center">
+      <a href="https://github.com/CodeChar" style="margin-right: 20px">
+        <i class="bx bxl-github fa-lg white-text mr-md-5 mr-3 fa-2x"></i>
+      </a>
+      <a href="https://discord.gg/b5xEUk7bRG" style="margin-right: 20px">
+        <i class="bx bxl-discord fa-lg white-text mr-md-5 mr-3 fa-2x"></i>
+      </a>
+      <a href="https://CodeChar.sellix.io/" style="margin-right: 20px">
+        <i class="bx bx-shopping-bag fa-lg white-text mr-md-5 mr-3 fa-2x"></i>
+      </a>
+      <a routerLink="/email">
+        <i class="bx bx-mail-send fa-lg white-text mr-md-5 mr-3 fa-2x"></i>
+      </a>
+    </div>
+    <div style="background: #001eff;">
+      <p style="color: var(--text-color); padding: 15px 0;" align="center">
+        &copy; 2022 Copyright: <a routerLink="/email" style="color: var(--background-color);">Created By: CodeChar</a>
+      </p>
+    </div>
+  </footer>
+  
+</body>

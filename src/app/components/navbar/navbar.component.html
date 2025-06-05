@@ -1,0 +1,71 @@
+  <div class="sidebar">
+    <div class="logo-details">
+      <a class="navbar-brand" routerLink="">
+        <img class="logo-size" [src]="logo" alt="Logo" />
+      </a>
+    </div>
+    <ul class="nav-list">
+      <li>
+        <a routerLink="/instagrambotz">
+          <i class='bx bxl-instagram'></i>
+          <span class="links_name">InstagramBotz</span>
+        </a>
+        <span class="tooltip">InstagramBotz</span>
+      </li>
+      <li>
+        <a routerLink="/spottybotty">
+          <i class='bx bxl-spotify'></i>
+          <span class="links_name">SpottyBotty</span>
+        </a>
+        <span class="tooltip">SpottyBotty</span>
+      </li>
+      <li>
+        <a routerLink="/messbot">
+          <i class='bx bxl-messenger'></i>
+          <span class="links_name">MessBot</span>
+        </a>
+        <span class="tooltip">MessBot</span>
+      </li>
+      <li>
+        <a routerLink="/download">
+          <i class='bx bx-cloud-download'></i>
+          <span class="links_name">Download</span>
+        </a>
+        <span class="tooltip">Download</span>
+      </li>
+      <!--<li>
+        <a routerLink="/login">
+          <i class='bx bx-user'></i>
+          <span class="links_name">Account</span>
+        </a>
+        <span class="tooltip">Account</span>
+      </li>-->
+      <li>
+        <a href="https://github.com/CodeChar">
+          <i class='bx bxl-github'></i>
+          <span class="links_name">Github</span>
+        </a>
+        <span class="tooltip">Github</span>
+      </li>
+      <li>
+        <a routerLink="/about-me">
+          <i class='bx bx-info-circle'></i>
+          <span class="links_name">About me</span>
+        </a>
+        <span class="tooltip">About me</span>
+      </li>
+      <li>
+        <a href="https://www.buymeacoffee.com/CodeChar">
+          <i class='bx bx-money'></i>
+          <span class="links_name">Donate</span>
+        </a>
+        <span class="tooltip">Donate</span>
+      </li>
+      
+      <li class="profile toggle" (click)="switchTheme()">
+        <div class="text_in_button">{{theme === "light-theme" ? "&#127769;" : "&#127774;"}}</div>
+      </li>
+    </ul>
+  </div>
+
+  <router-outlet></router-outlet>

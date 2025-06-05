@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Georama&display=swap');
+
+body {
+  font-family: "Georama", sans-serif;
+  padding-top: 10px;
+  padding-bottom: 3px;
+  margin-bottom: -16px;
+  margin-left: 100px;
+  margin-right: 50px;
+}
+
+p {
+  margin-left: 15px;
+}
+
+h1{
+  margin-bottom: 10px;
+}
+
+h2{
+  margin-left: 30px;
+}
+
+h3{
+  margin-left: 30px;
+}
+
+.text{
+  margin-left: 55px;
+  margin-top: -5px;
+  margin-bottom: -5px;
+}
+
+.text-center{
+  text-align: center;
+}
+
+.other-coloring{
+  background-color: #001eff;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-left: -100px;
+  margin-right: -50px;
+}
+
+.other-coloring-text{
+  text-align: center;
+  margin-left: 100px;
+  margin-right: 50px;
+}
+
+.other-coloring-column-text{
+  margin-top: -5px;
+  margin-bottom: -5px;
+  margin-left: 150px;
+  margin-right: 60px;
+}
+
+.button-center{
+  text-align: center;  
+}
+
+.button { 
+  margin-left: 70px;
+  width:250px;
+  background: var(--text-color);
+  border-radius: 20px;
+  border: 1px solid var(--text-color);
+  color: var(--background-color);
+  padding: 10px;
+  margin-bottom: 10px;
+  font-weight: 600;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+button:hover {
+  color: var(--text-color);
+  background-color: var(--box-color);
+  pointer-events: auto;
+  transition: all 0.4s ease;
+}
+
+.back-coloring{
+  transition: all .3s ease-in-out;
+  color: var(--text-color);
+  background-color: var(--background-color);
+}
+
+footer{
+  background: var(--text-color);
+  transition: all .3s ease-in-out;
+  margin-bottom: -19px;
+  margin-left: -30px;
+  margin-right: -50px;
+}
+a:link{
+  color: var(--background-color);
+  text-decoration: none;
+}
+a:visited{
+  color: var(--background-color);
+  text-decoration: none;
+}
+a:hover{
+  color: #001eff;
+  text-decoration: none;
+}
+a:active{
+  color: var(--background-color);
+  text-decoration: none;
+}

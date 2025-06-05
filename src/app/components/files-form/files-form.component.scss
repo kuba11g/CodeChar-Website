@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Georama&display=swap');
+
+body {
+  font-family: "Georama", sans-serif;
+  padding-top: 10px;
+  margin-left: 90px;
+  margin-right: 12px;
+}
+
+h1 {
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: -10px;
+}
+
+h3 {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.altLogo {
+  padding-top: 10px;
+}
+
+hr {
+  border-top: 2px solid var(--text-color);
+}
+
+p {
+  margin-bottom: 10px;
+}
+
+article {
+  background-color: var(--box-color);
+  margin: 10px 10px 10px 10px;
+  border: none;
+  box-shadow: 2px 2px 6px 0px var(--text-color);
+  border-radius: 20px;
+  text-align: center;
+  transition: transform .3s;
+}
+
+article img {
+  width: 100%;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.text {
+  padding: 0 20px 20px;
+}
+
+.button {
+  background: var(--text-color);
+  border-radius: 20px;
+  border: 1px solid var(--text-color);
+  color: var(--background-color);
+  padding: 10px;
+  margin-bottom: 10px;
+  width: 100%;
+  font-weight: 600;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+button:hover {
+  color: var(--text-color);
+  background-color: var(--box-color);
+  pointer-events: auto;
+  transition: all 0.4s ease;
+}
+
+footer{
+  background: var(--text-color);
+  transition: all .3s ease-in-out;
+  margin-top: 50px;
+  margin-bottom: -19px;
+  margin-left: -30px;
+  margin-right: -12px;
+}
+a:link{
+  color: var(--background-color);
+  text-decoration: none;
+}
+a:visited{
+  color: var(--background-color);
+  text-decoration: none;
+}
+a:hover{
+  color: #001eff;
+  text-decoration: none;
+}
+a:active{
+  color: var(--background-color);
+  text-decoration: none;
+}

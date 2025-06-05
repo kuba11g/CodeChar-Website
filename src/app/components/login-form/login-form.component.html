@@ -1,0 +1,80 @@
+<body class="body">
+  <video id="videoBG" disablePictureInPicture autoplay muted loop>
+    <source [src]="backgroundVid" type="video/mp4">
+  </video>
+
+  <div class="container box-container">
+    <input type="checkbox" id="flip">
+    <div class="cover">
+      <div class="front">
+        <img [src]="frontImg" alt="">
+        <div class="text">
+          <span class="text-1">Every new adventure is<br>a new experience</span>
+          <span class="text-2">Let's get connected</span>
+        </div>
+      </div>
+      <div class="back">
+        <img class="backImg" [src]="backImg" alt="">
+        <div class="text">
+          <span class="text-1">Connect to our community,<br>connect with people</span>
+          <span class="text-2">Let's get started</span>
+        </div>
+      </div>
+    </div>
+    <div class="forms">
+      <div class="form-content box-container">
+        <div class="login-form">
+          <div class="title header">Log In</div>
+          <form action="#">
+            <div class="input-boxes">
+              <div class="input-box">
+                <i class="fas fa-envelope"></i>
+                <input class="put-in-box" type="text" placeholder="Enter email" required>
+              </div>
+              <div class="input-box">
+                <i class="fas fa-lock"></i>
+                <input class="put-in-box" type="password" placeholder="Enter password" required>
+              </div>
+              <div class="text"><a href="#">Forgot password?</a></div>
+              <div class="button input-box">
+                <input type="submit" value="Log In">
+              </div>
+              <div class="text sign-up-text header">Don't have an account? <label for="flip">Sign Up now</label></div>
+              <p style="color: var(--text-color); padding: 15px 0; margin-bottom: -20px;" align="center">
+                &copy; 2022 Copyright: <a routerLink="/email"
+                  style="color: var(--text-color); text-decoration: none;">Created By: CodeChar</a>
+              </p>
+            </div>
+          </form>
+        </div>
+        <div class="signup-form">
+          <div class="title header">Sign Up</div>
+          <form action="#">
+            <div class="input-boxes">
+              <div class="input-box">
+                <i class="fas fa-user"></i>
+                <input class="put-in-box" type="text" placeholder="Enter nickname" required>
+              </div>
+              <div class="input-box">
+                <i class="fas fa-envelope"></i>
+                <input class="put-in-box" type="text" placeholder="Enter email" required>
+              </div>
+              <div class="input-box">
+                <i class="fas fa-lock"></i>
+                <input class="put-in-box" type="password" placeholder="Enter password" required>
+              </div>
+              <div class="button input-box">
+                <input type="submit" value="Sign Up">
+              </div>
+              <div class="text sign-up-text header">Already have an account? <label for="flip">Log In now</label></div>
+              <p style="color: var(--text-color); padding: 15px 0; margin-bottom: -20px;" align="center">
+                &copy; 2022 Copyright: <a routerLink="/email"
+                  style="color: var(--text-color); text-decoration: none;">Created By: CodeChar</a>
+              </p>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
